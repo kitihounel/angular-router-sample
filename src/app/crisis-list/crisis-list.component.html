@@ -1,2 +1,6 @@
-<h3>CRISIS CENTER</h3>
-<p>Get your crisis here</p>
+<h3>Crisis center</h3>
+<ul class="crises">
+  <li *ngFor="let crisis of crises">
+    <span class="badge">{{crisis.id}}</span> {{crisis.name}}
+  </li>
+</ul>
