@@ -280,3 +280,6 @@ export class LoginComponent {
 See *https://angular.io/guide/router-tutorial-toh#canactivatechild-guarding-child-routes*.
 
 `CanActivateChild` is interessing when used with component-less routes.
+
+## `CanDeactivate`: handling unsaved changes
+See *https://angular.io/guide/router-tutorial-toh#candeactivate-handling-unsaved-changes*.
