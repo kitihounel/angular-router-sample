@@ -275,3 +275,8 @@ export class LoginComponent {
   }
 }
 ```
+
+## `CanActivateChild`: guarding child routes
+See *https://angular.io/guide/router-tutorial-toh#canactivatechild-guarding-child-routes*.
+
+`CanActivateChild` is interessing when used with component-less routes.
